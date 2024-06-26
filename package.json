@@ -5,9 +5,6 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc -p tsconfig.build.json",
